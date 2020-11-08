@@ -22,5 +22,6 @@
   "homepage": "https://github.com/asanchez325/Landing-Zone#readme",
   "dependencies": {
     "express-handlebars": "^5.2.0"
-  }
+  },
+  "devDependencies": {}
 }
