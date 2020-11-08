@@ -1,11 +1,11 @@
 {
-  "start": "node server.js",
   "name": "landing-zone",
   "version": "1.0.0",
   "description": "LandingZone",
   "main": "index.js",
   "scripts": {
-    "test": "Test"
+    "test": "Test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
