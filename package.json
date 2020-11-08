@@ -1,0 +1,23 @@
+{
+  "start": "node server.js",
+  "name": "landing-zone",
+  "version": "1.0.0",
+  "description": "LandingZone",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asanchez325/Landing-Zone.git"
+  },
+  "keywords": [
+    "App"
+  ],
+  "author": "XEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asanchez325/Landing-Zone/issues"
+  },
+  "homepage": "https://github.com/asanchez325/Landing-Zone#readme"
+}
