@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/asanchez325/Landing-Zone/issues"
   },
-  "homepage": "https://github.com/asanchez325/Landing-Zone#readme"
+  "homepage": "https://github.com/asanchez325/Landing-Zone#readme",
+  "dependencies": {
+    "express-handlebars": "^5.2.0"
+  }
 }
