@@ -1,0 +1,33 @@
+
+<article>
+  <p><a href="/salesHistory"> &larr; Back to home</a></p>
+  <h2>Edit Order</h2>
+  <form class="edit-post-form">
+    <span>(Original customer name: {{post.title}})</span>
+    <input name="post-title" type="text" value="{{post.title}}" />
+    <span>(Original choice details: {{post.post_url}})</span>
+    <select name="post-url">
+      <optgroup label="Small Venues">
+        <option value=" 200sq/ft - $35.00">1000sq/ft - $35.00/hr</option>
+        <option value=" 250sq/ft - $40.00">250sq/ft - $29.00/hr</option>
+        <option value=" 325sq/ft - $50.00">325sq/ft - $50.00/hr</option>
+      </optgroup>
+      <optgroup label="Medium Venues">
+        <option value="500sq/ft - $400.00">500sq/ft - $400.00/hr</option>
+        <option value="800sq/ft - $700.00">800sq/ft - $700.00/hr</option>
+        <option value="9000sq/ft - $1200.00">900sq/ft - $1200.00/hr</option>
+      </optgroup>
+        <optgroup label="Large Venues">
+        <option value="1000sq/ft - $400.00"> 1000sq/ft - $100/hr</option>
+        <option value="1500sq/ft - $700.00">1500sq/ft - $125/hr</option>
+        <option value="2000sq/ft - $1200.00">2000sq/ft - $140/hr</option>
+      </optgroup>
+
+    </select>
+    <button type="submit">Verify Choice</button>
+    <button type="button" class="delete-post-btn">Delete Choice</button>
+  </form>
+</article>
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
