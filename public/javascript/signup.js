@@ -18,9 +18,9 @@ async function signupFormHandler(event) {
 
     if (response.ok) {
       document.location.replace('/');
-      alert('A new admin was added!');
+      alert('A new Client was added!');
     } else {
-      alert('There was an issue with creating a new admin. Error: ' + response.statusText);
+      alert('There was an issue with creating a new Client. Error: ' + response.statusText);
     }
   }
 }
