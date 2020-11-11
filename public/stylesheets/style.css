@@ -548,7 +548,11 @@ blockquote,
 th,
 td {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+ }
+ h2 {
+  color: rgb(0, 217, 255); 
+ } 
 
 p {
   margin-bottom: 1rem;
@@ -2462,7 +2466,7 @@ ul.no-bullet, ol.no-bullet {
     background-color: #14679e;
     color: #fefefe; }
   .button.primary, .button.primary.disabled, .button.primary[disabled], .button.primary.disabled:hover, .button.primary[disabled]:hover, .button.primary.disabled:focus, .button.primary[disabled]:focus {
-    background-color: #1779ba;
+    background-color: #00e1ff;
     color: #fefefe; }
   .button.primary:hover, .button.primary:focus {
     background-color: #126195;
@@ -2571,7 +2575,6 @@ ul.no-bullet, ol.no-bullet {
     position: relative;
     top: 0.4em;
     display: inline-block;
-    float: right;
     margin-left: 1em; }
   .button.dropdown.hollow::after, .button.dropdown.clear::after {
     border-top-color: #1779ba; }
@@ -3773,7 +3776,9 @@ a.thumbnail {
     line-height: 1;
     text-decoration: none;
     display: block;
-    padding: 0.7rem 1rem; }
+    padding: 0.7rem 1rem;
+  position: relative;
+ }
   .menu input,
   .menu select,
   .menu a,
@@ -3985,6 +3990,7 @@ a.thumbnail {
     font-weight: bold;
     font-style: italic;
     line-height: 1;
+    align-items: middle;
     color: black; }
 
 .menu-centered > .menu {
@@ -4243,7 +4249,6 @@ a.thumbnail {
   border-right-style: solid;
   border-color: transparent #1779ba transparent transparent;
   display: inline-block;
-  vertical-align: middle;
   margin-right: 0.75rem; }
 
 .dropdown.menu > li.opens-left > .is-dropdown-submenu {
@@ -5066,7 +5071,7 @@ html.is-reveal-open {
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #f8b323; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
