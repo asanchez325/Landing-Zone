@@ -14,10 +14,11 @@
 <body>
   <div class="wrapper">
     <header class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Landing-Zone</li>
-           <h5>Will This Be The Meeting That Lands You The Big Job, Contract, Deal.....</h5> 
+      <div class="top-bar-center">
+          <h1 class="menu-text">LANDING Z🎯NE</h1>
+           <h2>Will This Be The Zone That Lands You The Big Job, Million Dollar Idea, Contract, Deal.....</h2> 
+      </div>
+      <ul class="top-bar-right"></ul>
           {{#if loggedIn}}
           <li><a href="/newRental">New Rental</a></li>
           <li><a href="/controllers/processOrder-routes.js">Process Payments</a></li>
@@ -28,8 +29,8 @@
           <li><a href="/public/javascript/login.js">Login</a></li>
           {{/if}}
         </ul>
-      </div>
     </header>
+    </div>
     <main>
       {{{ body }}}
     </main>
