@@ -2466,7 +2466,7 @@ ul.no-bullet, ol.no-bullet {
     background-color: #14679e;
     color: #fefefe; }
   .button.primary, .button.primary.disabled, .button.primary[disabled], .button.primary.disabled:hover, .button.primary[disabled]:hover, .button.primary.disabled:focus, .button.primary[disabled]:focus {
-    background-color: #00e1ff;
+    background-color: #fa7777;
     color: #fefefe; }
   .button.primary:hover, .button.primary:focus {
     background-color: #126195;
@@ -2498,13 +2498,13 @@ ul.no-bullet, ol.no-bullet {
   .button.hollow, .button.hollow:hover, .button.hollow:focus, .button.hollow.disabled, .button.hollow.disabled:hover, .button.hollow.disabled:focus, .button.hollow[disabled], .button.hollow[disabled]:hover, .button.hollow[disabled]:focus {
     background-color: transparent; }
   .button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
-    border: 1px solid #1779ba;
-    color: #1779ba; }
+    border: 1px solid #dfe4e7;
+    color: #921010; }
   .button.hollow:hover, .button.hollow:focus {
     border-color: #0c3d5d;
     color: #0c3d5d; }
   .button.hollow.primary, .button.hollow.primary.disabled, .button.hollow.primary[disabled], .button.hollow.primary.disabled:hover, .button.hollow.primary[disabled]:hover, .button.hollow.primary.disabled:focus, .button.hollow.primary[disabled]:focus {
-    border: 1px solid #1779ba;
+    border: 1px solid #c3d6e2;
     color: #1779ba; }
   .button.hollow.primary:hover, .button.hollow.primary:focus {
     border-color: #0c3d5d;
@@ -3939,7 +3939,7 @@ a.thumbnail {
       margin-bottom: 0.25rem;
       text-align: center; }
   .menu .is-active > a {
-    background: #1779ba;
+    background: #15405c7c;
     color: #fefefe; }
   .menu .active > a {
     background: #1779ba;
@@ -4273,7 +4273,7 @@ a.thumbnail {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #1779ba transparent transparent;
+  border-color: #ba171f transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
