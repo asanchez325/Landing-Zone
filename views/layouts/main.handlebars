@@ -22,13 +22,13 @@
         <div class="top-bar-right">
         <ul class="menu">
           {{#if loggedIn}}
-          <li><a href="/newRental">New Rental</a></li>
+          <li><a href="">New Rental</a></li>
           <li><a href="/controllers/processOrder-routes.js">Process Payments</a></li>
           <li><a href="/controllers/newClient-routes.js">Welcome!</a></li>
           <li><a href="/controllers/passedRental-routes.js">Rentals History</a></li>
           <button id="logout" class="btn-no-style">Logout</button>
           {{else}}
-          <element class="button primary"><a href="/public/javascript/login.js">Login</a></div>
+          <element class="button primary"><a href="/newClient">Login</a></div>
           {{/if}}
         </ul>
     </header>
@@ -47,7 +47,7 @@
   </div>
 
   {{#if loggedIn}}
-  <script src="/public/javascript/login.js"></script>
+  <script src="/public/javascript/logout.js"></script>
   {{/if}}
   
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
