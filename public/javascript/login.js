@@ -31,7 +31,7 @@ async function signupFormHandler(event) {
   const password = document.querySelector('#password-signup').value.trim();
 
   if (username && email && password) {
-    const response = await fetch('/api/user', {
+    const response = await fetch('/api/users', {
       method: 'post',
       body: JSON.stringify({
         username,
@@ -47,6 +47,21 @@ async function signupFormHandler(event) {
       alert(response.statusText);
     }
   }
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
 
 document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
