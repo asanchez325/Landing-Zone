@@ -2,10 +2,10 @@
   "name": "landing-zone",
   "version": "1.0.0",
   "description": "LandingZone",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "Test",
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
