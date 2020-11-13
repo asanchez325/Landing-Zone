@@ -20,45 +20,34 @@
     <ul class="menu" data-responsive-menu="accordion">
       <li class="menu-text">XEN</li>
       <li><a href="#">New Rental</a></li>
-      <li><a href="#">Process Payments</a></li>
-      <li><a href="#">Welcome</a></li>
-      <li><a href="#">Rental History</a></li>
+      <li><a href="/createOrder">Process Payments</a></li>
+      <li><a href="/newClient-routes">Welcome</a></li>
+      <li><a href="/RentalHistory">Rental History</a></li>
+
     </ul>
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li><a href="#">My Account</a></li>
-      <li class="button"></a href="/signup">Login</a></li>
+      {{#if loggedIn}}
+      <li class="button"><a href="">Logout</a></li>
+      {{else}}
+      <li class="button"><a href="/signup">Login</a></li>
+      {{/if}}
     </ul>
   </div>
 </div>
 <h3>Will This Be The Zone That Lands You The Big Job, Million Dollar Idea, Contract, Deal.....</h3> 
      
-      <div class="top-bar">
-        <div class="top-bar-right">
-        <ul class="menu">
-          {{#if loggedIn}}
-          <li><a href="">New Rental</a></li>
-          <li><a href="/controllers/processOrder-routes.js">Process Payments</a></li>
-          <li><a href="/controllers/newClient-routes.js">Welcome!</a></li>
-          <li><a href="/controllers/passedRental-routes.js">Rentals History</a></li>
-          <button id="logout" class="btn-no-style">Logout</button>
-          {{else}}
-          <element class="button primary"><a href="/signup">Login</a></div>
-          {{/if}}
-        </ul>
-    </header>
+
     </div>
     <main>
       {{{ body }}}
     </main>
     <!-- Footer with copyright -->
-    <footer class="callout margin-footer">
-      <ul class="menu simple">
+    <footer class="menu simple">
         <li> <h4>LANDING Z🎯NE</h4>
           Thank You on Behalf of XEN + Our Partners<br>
         Dream Big Dreams and When You're Done Dreaming, DREAM BIGGER DREAMS!</li>
-      </ul>
     </footer>
   </div>
 
