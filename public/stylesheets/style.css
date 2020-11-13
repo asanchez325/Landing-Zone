@@ -714,12 +714,12 @@ kbd {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a; }
 
-.subheader {
+.header {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
   font-weight: normal;
   line-height: 1.4;
-  color: #8a8a8a; }
+  color: black; }
 
 .lead {
   font-size: 125%;
@@ -5018,6 +5018,8 @@ html.is-reveal-open {
   padding: 0.5rem;
   background: #0a0a0a;
   color: #fefefe;
+  font-style: italic;
+  text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5134,7 +5136,8 @@ html.is-reveal-open {
   -webkit-flex: 0 0 auto;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  margin: 0.5rem 1rem 0.5rem 0; }
+  margin: 0.5rem 1rem 0.5rem 0;
+ }
 
 .top-bar-left,
 .top-bar-right {
