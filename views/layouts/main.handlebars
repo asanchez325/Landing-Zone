@@ -19,11 +19,12 @@
   <div class="top-bar-left">
     <ul class="menu" data-responsive-menu="accordion">
       <li class="menu-text">XEN</li>
-      <li><a href="#">New Rental</a></li>
+      {{#if loggedIn}}
+      <li><a href="/newRental">Discover Zones</a></li>
+      <li><a href="/RentalHistory">Zone History</a></li>
+       <li><a href="#">New Rental</a></li>
       <li><a href="/createOrder">Process Payments</a></li>
-      <li><a href="/newClient-routes">Welcome</a></li>
-      <li><a href="/RentalHistory">Rental History</a></li>
-
+      {{/if}}
     </ul>
   </div>
   <div class="top-bar-right">
