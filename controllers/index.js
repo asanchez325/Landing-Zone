@@ -1,10 +1,10 @@
 const router = require('express').Router();
 
 const apiRoutes = require('./api/');
-const homeRoutes = require('./home-routes.js');
-const HistoryRoutes = require('./passedRental-routes.js');
+const homeRoutes = require('./home-routes');
+const HistoryRoutes = require('./passedRental-routes');
 const newRentalRoutes = require('./newRental-routes');
-const processOrderRoutes = require('./processOrder-routes.js');
+const processOrderRoutes = require('./processOrder-routes');
 const newClientRoutes = require('./newClient-routes');
 
 router.use('/', homeRoutes);

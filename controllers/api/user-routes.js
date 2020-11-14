@@ -74,7 +74,7 @@ router.post('/', (req, res) => {
     });
 });
 
-router.post('login', (req, res) => {
+router.post('/signup', (req, res) => {
   User.findOne({
     where: {
       email: req.body.email

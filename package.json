@@ -2,10 +2,10 @@
   "name": "landing-zone",
   "version": "1.0.0",
   "description": "LandingZone",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "Test",
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -22,12 +22,14 @@
   "homepage": "https://github.com/asanchez325/Landing-Zone#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "braintree": "^3.1.0",
     "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
     "request": "^2.88.2",
     "sequelize": "^6.3.5"
   },
