@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
     .then(dbPostData => {
       const posts = dbPostData.map(post => post.get({ plain: true }));
 
-      res.render('newRental', {
+      res.render('homepage', {
         posts,
         loggedIn: req.session.loggedIn
       });
@@ -105,6 +105,24 @@ router.get('/newPurchase', (req, res) => {
   }
 
   res.render('createOrder');
+});
+
+//createPost Section
+
+router.get('/post/:id', (req, res) => {
+  const post = {
+    id: 1,
+    post_url: 'https://handlebarsjs.com/guide/',
+    title: 'Handlebars Docs',
+    created_at: new Date(),
+    vote_count: 10,
+    comments: [{}, {}],
+    user: {
+      username: 'test_user'
+    }
+  };
+
+  res.render('createPost', { post });
 });
 
 module.exports = router; 

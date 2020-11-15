@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="title-bar">
-          <h1>LANDING Z🎯NE</h1>
-    </div>
+    <header class="title-bar">
+          <h2>LANDING Z🎯NE</h2>
+    </header>
   <div class="top-bar">
   <div class="top-bar-left">
     <ul class="menu" data-responsive-menu="accordion">
@@ -22,7 +22,7 @@
       {{#if loggedIn}}
       <li><a href="/newRental">Discover Zones</a></li>
       <li><a href="/RentalHistory">Zone History</a></li>
-       <li><a href="#">New Rental</a></li>
+      <li><a href="/createPost">Create Zone</a></li>
       <li><a href="/createOrder">Process Payments</a></li>
       {{/if}}
     </ul>
@@ -30,9 +30,9 @@
   <div class="top-bar-right">
     <ul class="menu">
       {{#if loggedIn}}
-      <li class="button"><a href="">Logout</a></li>
+      <li class="button primary"><a href="">Logout</a></li>
       {{else}}
-      <li class="button"><a href="/signup">Login</a></li>
+      <li class="button primary"><a href="/signup">Login</a></li>
       {{/if}}
     </ul>
   </div>
@@ -45,10 +45,10 @@
       {{{ body }}}
     </main>
     <!-- Footer with copyright -->
-    <footer class="menu simple">
-        <li> <h4>LANDING Z🎯NE</h4>
-          Thank You on Behalf of XEN + Our Partners<br>
-        Dream Big Dreams and When You're Done Dreaming, DREAM BIGGER DREAMS!</li>
+    <footer class="title-bar">
+        <ul><h5>LANDING Z🎯NE</h5>
+        Thank You on Behalf of XEN + Our Partners<br>
+        Dream Big Dreams and When You're Done Dreaming, DREAM BIGGER DREAMS!</ul>
     </footer>
   </div>
 
